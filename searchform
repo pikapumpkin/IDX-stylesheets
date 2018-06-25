@@ -1,257 +1,142 @@
 ul.select2-results {
-letter-spacing:3px!important;
-text-transform:lowercase!important;
+  text-transform : lowercase!important;
+  letter-spacing : 3px!important;
 }
 
 div#s2id_IDX-propStatus {
-display:block!important;
-position:static!important;
+  display  : block!important;
+  position : static!important;
 }
 
 div {
-font-family:playfair display, serif;
+  font-family : playfair display,
+                serif;
 }
 
 div#IDX-action-buttons.IDX-row-content {
-color:#000!important;
-font-family:playfair display, serif;
-font-size:20px;
-font-weight:700;
-letter-spacing:3.75px;
-text-transform:uppercase;
-z-index:9999999!important;
+  z-index        : 9999999!important;
+  color          : #000!important;
+  text-transform : uppercase;
+  font-family    : playfair display,
+                   serif;
+  font-size      : 20px;
+  font-weight    : 700;
+  letter-spacing : 3.75px;
 }
 
 div#IDX-action-buttons {
-max-width:50%;
-padding:0!important;
+  max-width : 50%;
+  padding   : 0!important;
 }
 
 div#IDX-coreSearchFields {
-color:#000!important;
-font-family:playfair display, serif;
-font-size:14px;
-font-weight:300;
-letter-spacing:3px;
-margin-top:10px;
-text-transform:lowercase;
+  margin-top     : 10px;
+  color          : #000!important;
+  text-transform : lowercase;
+  font-family    : playfair display,
+                   serif;
+  font-size      : 14px;
+  font-weight    : 300;
+  letter-spacing : 3px;
 }
 
 ul.IDX-nav.IDX-navbar-nav {
-bottom:18px!important;
-clear:both!important;
-float:none!important;
-position:relative!important;
+  position : relative!important;
+  bottom   : 18px!important;
+  float    : none!important;
+  clear    : both!important;
 }
 
 nav#IDX-navbar {
-background-color:#000;
-border:none;
-display:inline-block!important;
-font-family:playfair display sc, serif;
-font-size:14px;
-font-weight:100!important;
-letter-spacing:3.75px!important;
-margin:0!important;
-padding:0!important;
-text-transform:uppercase;
-width:100%!important;
-word-spacing:1px!important;
+  display          : inline-block!important;
+  width            : 100%!important;
+  margin           : 0!important;
+  padding          : 0!important;
+  border           : none;
+  background-color : #000;
+  text-transform   : uppercase;
+  font-family      : playfair display sc,
+                     serif;
+  font-size        : 14px;
+  font-weight      : 100!important;
+  letter-spacing   : 3.75px!important;
+  word-spacing     : 1px!important;
 }
 
 div#IDX-tb-group.IDX-control-group {
-margin:0 0 15px!important;
+  margin : 0 0 15px!important;
 }
 
 div#IDX-searchPageWrapper {
-background-color:#F0F8FF;
-margin:auto;
-padding-bottom:5px;
-width:75%;
+  width            : 75%;
+  margin           : auto;
+  padding-bottom   : 5px;
+  background-color : #F0F8FF;
 }
 
 .IDX-wrapper-standard .IDX-navbar {
-clear:both!important;
-float:none!important;
-text-align:center!important;
+  float      : none!important;
+  clear      : both!important;
+  text-align : center!important;
 }
 
 a.IDX-searchNavLink {
-color:#FFF!important;
-display:inline-block!important;
-font-weight:100;
-width:100%!important;
+  display     : inline-block!important;
+  width       : 100%!important;
+  color       : #FFF!important;
+  font-weight : 100;
 }
 
 div#IDX-navbar-collapse {
-clear:both!important;
-display:inline-block!important;
-width:100%!important;
+  display : inline-block!important;
+  width   : 100%!important;
+  clear   : both!important;
 }
 
 li.IDX-searchNavItem.IDX-nav-advanced.IDX-active {
-display:inline-block!important;
-width:fit-content!important;
+  display : inline-block!important;
+  width   : fit-content!important;
 }
 
 .IDX-wrapper-standard .IDX-navbar-nav > li {
-clear:both!important;
-display:inline-block!important;
-float:none!important;
-text-align:center!important;
-width:fit-content!important;
+  display    : inline-block!important;
+  width      : fit-content!important;
+  float      : none!important;
+  clear      : both!important;
+  text-align : center!important;
 }
 
 .IDX-navbar-header {
-clear:both!important;
-display:inline-block!important;
-float:none!important;
-text-align:center!important;
-width:100%!important;
+  display    : inline-block!important;
+  width      : 100%!important;
+  float      : none!important;
+  clear      : both!important;
+  text-align : center!important;
 }
 
 .IDX-wrapper-standard .IDX-navbar-header {
-clear:both!important;
-float:none!important;
-text-align:center!important;
-width:100%!important;
+  width      : 100%!important;
+  float      : none!important;
+  clear      : both!important;
+  text-align : center!important;
 }
 
-.IDX-wrapper-standard .IDX-mobileFirst neutral .IDX-navbar-default
-.IDX-navbar-nav > li > a:hover,.IDX-wrapper-standard .IDX-mobileFirst neutral
-.IDX-navbar-default .IDX-navbar-nav > li > a:focus,.IDX-wrapper-standard
-.IDX-mobileFirst neutral .IDX-navbar-default .IDX-navbar-nav > li.IDX-active >
-a,.IDX-wrapper-standard .IDX-mobileFirst neutral .IDX-navbar-default
-.IDX-navbar-nav > li.IDX-active > a:focus {
-background-color:hsla(9,100%,64%,0);
-color:aqua!important;
-display:block!important;
-width:fit-content!important;
+.IDX-wrapper-standard .IDX-mobileFirst neutral .IDX-navbar-default .IDX-navbar-nav > li.IDX-active > a,
+.IDX-wrapper-standard .IDX-mobileFirst neutral .IDX-navbar-default .IDX-navbar-nav > li.IDX-active > a:focus,
+.IDX-wrapper-standard .IDX-mobileFirst neutral .IDX-navbar-default .IDX-navbar-nav > li > a:focus,
+.IDX-wrapper-standard .IDX-mobileFirst neutral .IDX-navbar-default .IDX-navbar-nav > li > a:hover {
+  display          : block!important;
+  width            : fit-content!important;
+  color            : aqua!important;
+  background-color : hsla(9,100%,64%,0);
 }
 
 button.IDX-navbar-toggle.IDX-collapsed {
-clear:both!important;
-float:none!important;
-position:static!important;
-text-align:center!important;
+  position   : static!important;
+  float      : none!important;
+  clear      : both!important;
+  text-align : center!important;
 }
 
 .IDX-container-navbar {
-display:inline-block!important;
-height:50px!important;
-width:100%!important;
-}
-
-.IDX-wrapper-standard .IDX-mobileFirst--neutral .IDX-navbar-default
-.IDX-navbar-nav > li > a:hover,.IDX-wrapper-standard .IDX-mobileFirst--neutral
-.IDX-navbar-default .IDX-navbar-nav > li > a:focus,.IDX-wrapper-standard
-.IDX-mobileFirst--neutral .IDX-navbar-default .IDX-navbar-nav > li.IDX-active >
-a,.IDX-wrapper-standard .IDX-mobileFirst--neutral .IDX-navbar-default
-.IDX-navbar-nav > li.IDX-active > a:focus {
-background-color:#000!important;
-}
-
-img#idx {
-bottom:16px;
-position:relative;
-}
-
-.IDX-wrapper-standard .IDX-control-group {
-border:none!important;
-display:inline!important;
-height:100%!important;
-margin:0!important;
-padding:5px 10px;
-}
-
-div#IDX-pt-group {
-border:none!important;
-}
-
-.IDX-row-content {
-display:inline!important;
-}
-
-form#IDX-searchForm {
-padding-top:5px!important;
-}
-
-a.idxlogin {
-color:#FFF!important;
-display:inline-block;
-height:auto!important;
-padding:0!important;
-width:110px!important;
-}
-
-a.idxlogin:hover {
-color:#FF69B4;
-}
-
-a.idxsignup {
-color:#FFF!important;
-display:inline-block!important;
-height:auto!important;
-padding:0!important;
-width:110px!important;
-}
-
-button#IDX-formSubmit {
-background-color:#000;
-border:none;
-color:#FFF;
-font-family:playfair display sc, serif;
-font-size:14px;
-font-weight:100!important;
-height:39px;
-letter-spacing:3.75px!important;
-margin:10px!important;
-text-transform:uppercase;
-width:120px!important;
-word-spacing:1px!important;
-}
-
-div#useraction {
-width:fit-content!important;
-}
-
-div#useraction.userbuttons {
-right:183px!important;
-top:203px!important;
-z-index:999999999;
-}
-
-.IDX-controls,select#IDX-pt {
-display:inline-block!important;
-}
-
-div#IDX-propSubType-group,div#s2id_IDX-propSubType,ul.select2-choices,li.select2-search-field,input#s2id_autogen109 {
-text-transform:lowercase!important;
-}
-
-.IDX-wrapper-standard .IDX-mobileFirst .IDX-advancedBox:focus,div#IDX-advancedSearchFields {
-color:#000!important;
-font-family:playfair display, serif;
-font-size:14px;
-font-weight:300;
-letter-spacing:3px;
-text-transform:lowercase;
-}
-
-button#IDX-formReset,div#IDX-acres-group,div#IDX-action-buttons-bottom {
-display:none!important;
-}
-
-div#IDX-tb-group,.IDX-wrapper-standard #IDX-search-property-content
-.IDX-control-group:nth-of-type(odd),.IDX-wrapper-standard
-#IDX-search-primary-content .IDX-control-group:nth-of-type(odd),.IDX-wrapper-standard #IDX-search-additional-content
-.IDX-control-group:nth-of-type(odd) {
-margin:0!important;
-}
-
-button#IDX-formSubmit:hover,a.idxlogin:hover,a.idxsignup:hover,li.IDX-searchNavItem.IDX-nav-mapsearch:hover,li.IDX-searchNavItem.IDX-nav-advanced:hover,a.IDX-searchNavLink:hover,.IDX-wrapper-standard .IDX-mobileFirst--neutral .IDX-navbar-default
-.IDX-navbar-nav > li.IDX-active > a,.IDX-wrapper-standard
-.IDX-mobileFirst--neutral .IDX-navbar-default .IDX-navbar-nav > li.IDX-active >
-a:focus {
-color:#71CE3F!important;
-}
+  display : inline-block!important;
