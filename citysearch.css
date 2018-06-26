@@ -1,0 +1,366 @@
+/* SPECIFIC PAGE CUSTOMIZATION - START */
+
+
+
+div#IDX-searchPageWrapper {
+  width : 40% !important;
+  min-width: 1000px !important;
+}
+
+button#IDX-formSubmit {
+  display : inline;
+  width   : 10% !important;
+  float   : right!important;
+  margin  : 10px 15px 5px 0px !important;
+}
+
+
+div#IDX-ccz-group {
+  width  : 87% !important;
+  padding : 10px 0px 10px 15px!important;
+  display : inline;
+  float   : left!important;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* NAVIGATION */
+
+ul.IDX-nav.IDX-navbar-nav {
+  position : relative!important;
+  bottom   : 18px!important;
+  float    : none!important;
+  clear    : both!important;
+}
+
+nav#IDX-navbar {
+  display          : inline-block!important;
+  width            : 100%!important;
+  margin           : 0!important;
+  padding          : 0!important;
+  border           : none;
+  background-color : #000;
+  text-transform   : uppercase;
+  font-family      : playfair display sc,
+                     serif;
+  font-size        : 14px;
+  font-weight      : 100!important;
+  letter-spacing   : 3.75px!important;
+  word-spacing     : 1px!important;
+}
+
+.IDX-wrapper-standard .IDX-navbar {
+  float      : none!important;
+  clear      : both!important;
+  text-align : center!important;
+}
+
+a.IDX-searchNavLink {
+  display     : inline-block!important;
+  width       : 100%!important;
+  color       : #FFF!important;
+  font-weight : 100;
+}
+
+div#IDX-navbar-collapse {
+  display : inline-block!important;
+  width   : 100%!important;
+  clear   : both!important;
+}
+
+li.IDX-searchNavItem.IDX-nav-advanced.IDX-active {
+  display : inline-block!important;
+  width   : fit-content!important;
+}
+
+.IDX-wrapper-standard .IDX-navbar-nav > li {
+  display    : inline-block!important;
+  width      : fit-content!important;
+  float      : none!important;
+  clear      : both!important;
+  text-align : center!important;
+}
+
+.IDX-navbar-header {
+  display    : inline-block!important;
+  width      : 100%!important;
+  float      : none!important;
+  clear      : both!important;
+  text-align : center!important;
+}
+
+.IDX-wrapper-standard .IDX-navbar-header {
+  width      : 100%!important;
+  float      : none!important;
+  clear      : both!important;
+  text-align : center!important;
+}
+
+.IDX-container-navbar {
+  display : inline-block!important;
+  width   : 100%!important;
+  height  : 50px!important;
+}
+
+button.IDX-navbar-toggle.IDX-collapsed {
+  position   : static!important;
+  float      : none!important;
+  clear      : both!important;
+  text-align : center!important;
+}
+
+
+
+
+
+
+
+
+/* ACTION BUTTONS - SUBMIT */
+
+div#IDX-action-buttons {
+  max-width : 50%;
+  padding   : 0!important;
+}
+
+div#IDX-action-buttons.IDX-row-content {
+  z-index        : 9999999!important;
+  color          : #000!important;
+  text-transform : uppercase;
+  font-family    : playfair display,
+                   serif;
+  font-size      : 20px;
+  font-weight    : 700;
+  letter-spacing : 3.75px;
+}
+
+button#IDX-formSubmit {
+  /* width            : 120px!important; */
+  height           : 39px;
+  /* margin           : 10px!important; */
+  color            : #FFF;
+  border           : none;
+  background-color : #000;
+  text-transform   : uppercase;
+  font-family      : playfair display sc,
+                     serif;
+  font-size        : 14px;
+  font-weight      : 100!important;
+  letter-spacing   : 3.75px!important;
+  word-spacing     : 1px!important;
+}
+
+
+
+
+
+
+/* SEARCH FIELDS */
+
+div#IDX-coreSearchFields {
+  margin-top     : 10px;
+  color          : #000!important;
+  text-transform : lowercase;
+  font-family    : playfair display,
+                   serif;
+  font-size      : 14px;
+  font-weight    : 300;
+  letter-spacing : 3px;
+}
+
+ul.select2-results {
+  text-transform : lowercase!important;
+  letter-spacing : 3px!important;
+}
+
+div#IDX-propSubType-group,
+div#s2id_IDX-propSubType,
+input#s2id_autogen109,
+li.select2-search-field,
+ul.select2-choices {
+  text-transform : lowercase!important;
+}
+
+.IDX-wrapper-standard .IDX-mobileFirst .IDX-advancedBox:focus,
+div#IDX-advancedSearchFields {
+  color          : #000!important;
+  text-transform : lowercase;
+  font-family    : playfair display,
+                   serif;
+  font-size      : 14px;
+  font-weight    : 300;
+  letter-spacing : 3px;
+}
+
+form#IDX-searchForm {
+  padding-top : 5px!important;
+}
+
+.IDX-controls,
+select#IDX-pt {
+  display : inline-block!important;
+}
+
+
+
+/* HOVER */
+
+.IDX-wrapper-standard .IDX-mobileFirst--neutral .IDX-navbar-default .IDX-navbar-nav > li.IDX-active > a,
+.IDX-wrapper-standard .IDX-mobileFirst--neutral .IDX-navbar-default .IDX-navbar-nav > li.IDX-active > a:focus,
+a.IDX-searchNavLink:hover,
+a.idxlogin:hover,
+a.idxsignup:hover,
+button#IDX-formSubmit:hover,
+li.IDX-searchNavItem.IDX-nav-advanced:hover,
+li.IDX-searchNavItem.IDX-nav-mapsearch:hover {
+  color : #71CE3F!important;
+}
+
+a.idxlogin:hover {
+  color : #FF69B4;
+}
+
+
+.IDX-wrapper-standard .IDX-mobileFirst--neutral .IDX-navbar-default .IDX-navbar-nav > li.IDX-active > a,
+.IDX-wrapper-standard .IDX-mobileFirst--neutral .IDX-navbar-default .IDX-navbar-nav > li.IDX-active > a:focus,
+.IDX-wrapper-standard .IDX-mobileFirst--neutral .IDX-navbar-default .IDX-navbar-nav > li > a:focus,
+.IDX-wrapper-standard .IDX-mobileFirst--neutral .IDX-navbar-default .IDX-navbar-nav > li > a:hover {
+  background-color : #000!important;
+}
+
+
+.IDX-wrapper-standard .IDX-mobileFirst neutral .IDX-navbar-default .IDX-navbar-nav > li.IDX-active > a,
+.IDX-wrapper-standard .IDX-mobileFirst neutral .IDX-navbar-default .IDX-navbar-nav > li.IDX-active > a:focus,
+.IDX-wrapper-standard .IDX-mobileFirst neutral .IDX-navbar-default .IDX-navbar-nav > li > a:focus,
+.IDX-wrapper-standard .IDX-mobileFirst neutral .IDX-navbar-default .IDX-navbar-nav > li > a:hover {
+  display          : block!important;
+  width            : fit-content!important;
+  color            : aqua!important;
+  background-color : hsla(9,100%,64%,0);
+}
+
+
+
+
+
+
+
+
+
+/* WRAPPER CUSTOMIZATION */
+
+div {
+  font-family : playfair display,
+                serif;
+}
+
+div#IDX-searchPageWrapper {
+  width            : 75%;
+  margin           : auto;
+  padding-bottom   : 5px;
+  background-color : #F0F8FF;
+}
+
+.IDX-wrapper-standard #IDX-search-additional-content .IDX-control-group:nth-of-type(odd),
+.IDX-wrapper-standard #IDX-search-primary-content .IDX-control-group:nth-of-type(odd),
+.IDX-wrapper-standard #IDX-search-property-content .IDX-control-group:nth-of-type(odd),
+div#IDX-tb-group {
+  margin : 0!important;
+}
+
+.IDX-wrapper-standard .IDX-control-group {
+  display : inline!important;
+  height  : 100%!important;
+  margin  : 0!important;
+  padding : 5px10px;
+  border  : none!important;
+}
+
+div#IDX-pt-group {
+  border : none!important;
+}
+
+.IDX-row-content {
+  display : inline!important;
+}
+
+
+div#s2id_IDX-propStatus {
+  display  : block!important;
+  position : static!important;
+}
+
+div#IDX-tb-group.IDX-control-group {
+  margin : 0 0 15px!important;
+}
+
+
+
+
+
+
+/* MEMBERS */
+
+
+a.idxlogin {
+  display : inline-block;
+  width   : 110px!important;
+  height  : auto!important;
+  padding : 0!important;
+  color   : #FFF!important;
+}
+
+
+
+a.idxsignup {
+  display : inline-block!important;
+  width   : 110px!important;
+  height  : auto!important;
+  padding : 0!important;
+  color   : #FFF!important;
+}
+
+div#useraction {
+  width : fit-content!important;
+}
+
+div#useraction.userbuttons {
+  z-index : 999999999;
+  top     : 203px!important;
+  right   : 183px!important;
+}
+
+
+
+/* DISPLAY NONE */
+
+button#IDX-formReset,
+div#IDX-acres-group,
+div#IDX-action-buttons-bottom {
+  display : none!important;
+}
+
+.IDX-control-group.IDX-hidden,
+IDX-control-group.IDX-hidden.IDX-minPrice-maxPrice {
+  display : none !important;
+}
+
+
+/* IMG */
+
+img#idx {
+  position : relative;
+  bottom   : 16px;
+}
